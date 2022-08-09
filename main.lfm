@@ -1,0 +1,16 @@
+object frmMain: TfrmMain
+  Left = 313
+  Height = 240
+  Top = 149
+  Width = 320
+  Caption = 'kiosk'
+  OnCloseQuery = FormCloseQuery
+  OnCreate = FormCreate
+  OnShow = FormShow
+  LCLVersion = '2.2.0.4'
+  object TimerClear: TTimer
+    OnTimer = TimerClearTimer
+    Left = 83
+    Top = 84
+  end
+end

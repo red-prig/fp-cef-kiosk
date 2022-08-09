@@ -1,0 +1,12 @@
+*.exe
+*.dll
+*.lps
+*.ppu
+*.bak
+*.o
+*.pak
+*.dat
+*.bin
+*.json
+lib/
+backup/
